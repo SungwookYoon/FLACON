@@ -1,0 +1,69 @@
+{
+  "best_silhouette": {
+    "name": "2_flags_semantic_categorical",
+    "flag_count": 2,
+    "silhouette_score": 0.5292736259659464,
+    "calinski_harabasz_score": 92.73419510744725,
+    "davies_bouldin_score": 1.151610855528009,
+    "processing_time": 1.8271851539611816,
+    "flag_combination": "semantic, categorical"
+  },
+  "best_ch": {
+    "name": "2_flags_semantic_structural",
+    "flag_count": 2,
+    "silhouette_score": 0.3819198578530892,
+    "calinski_harabasz_score": 103.57209158301528,
+    "davies_bouldin_score": 0.9069228920770435,
+    "processing_time": 2.305068016052246,
+    "flag_combination": "semantic, structural"
+  },
+  "best_db": {
+    "name": "2_flags_semantic_structural",
+    "flag_count": 2,
+    "silhouette_score": 0.3819198578530892,
+    "calinski_harabasz_score": 103.57209158301528,
+    "davies_bouldin_score": 0.9069228920770435,
+    "processing_time": 2.305068016052246,
+    "flag_combination": "semantic, structural"
+  },
+  "fastest": {
+    "name": "baseline_tfidf",
+    "flag_count": 1,
+    "silhouette_score": 0.2575147623726097,
+    "calinski_harabasz_score": 20.96992509709361,
+    "davies_bouldin_score": 2.126423950407907,
+    "processing_time": 1.1439316272735596,
+    "flag_combination": "tfidf"
+  },
+  "best_overall": {
+    "name": "2_flags_semantic_categorical",
+    "flag_count": 2,
+    "silhouette_score": 0.5292736259659464,
+    "calinski_harabasz_score": 92.73419510744725,
+    "davies_bouldin_score": 1.151610855528009,
+    "processing_time": 1.8271851539611816,
+    "flag_combination": "semantic, categorical",
+    "silhouette_norm": 1.0,
+    "ch_norm": 0.8687940409236701,
+    "db_norm": 0.7993540376374326,
+    "time_norm": 0.4115647969604278,
+    "composite_score": 0.8616654995006303
+  },
+  "optimized_weights": {
+    "experiment_name": "Weight_Opt_Trial_7",
+    "flag_combination": [
+      "semantic",
+      "categorical"
+    ],
+    "weights": {
+      "semantic": 0.18064226695459923,
+      "categorical": 0.8193577330454007
+    },
+    "silhouette_score": 0.7438023672720951,
+    "calinski_harabasz_score": 154.09069922760696,
+    "davies_bouldin_score": 0.8822029306756868,
+    "processing_time": 2.7062525749206543,
+    "n_clusters": 5,
+    "flag_count": 2
+  }
+}

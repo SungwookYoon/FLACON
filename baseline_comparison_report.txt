@@ -1,0 +1,44 @@
+Dynamic Context Flag-Based Hierarchical Algorithm vs Baseline Algorithms
+================================================================================
+
+실험 개요:
+- 제안된 Dynamic Context Flag 알고리즘과 기존 클러스터링 알고리즘들의 성능 비교
+- 평가 메트릭: Silhouette Score, Calinski-Harabasz Score, Davies-Bouldin Score, Processing Time
+- 데이터셋: Enron Email, 20 Newsgroups, Reuters-21578
+
+평균 성능 비교 결과:
+--------------------------------------------------
+1. Silhouette Score (높을수록 좋음):
+   K-Means: 0.0393
+   Agglomerative: 0.0505
+   DBSCAN: 0.0306
+   Proposed (DCF): 0.3085
+   → 최고 성능: Proposed (DCF)
+
+2. Calinski-Harabasz Score (높을수록 좋음):
+   K-Means: 4.30
+   Agglomerative: 4.92
+   DBSCAN: 5.53
+   Proposed (DCF): 92.47
+   → 최고 성능: Proposed (DCF)
+
+3. Davies-Bouldin Score (낮을수록 좋음):
+   K-Means: 5.1566
+   Agglomerative: 3.1008
+   DBSCAN: 4.7120
+   Proposed (DCF): 1.1533
+   → 최고 성능: Proposed (DCF)
+
+4. Processing Time (낮을수록 좋음):
+   K-Means: 0.7756초
+   Agglomerative: 0.0266초
+   DBSCAN: 0.0150초
+   Proposed (DCF): 0.5518초
+   → 최고 성능: DBSCAN
+
+종합 평가:
+--------------------------------------------------
+제안된 알고리즘 (Dynamic Context Flag):
+- Silhouette Score 순위: 1/4
+- 실루엣 점수: 0.3085
+- 결과: 최고 성능 달성! ✓

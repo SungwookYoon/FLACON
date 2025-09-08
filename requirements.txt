@@ -1,0 +1,22 @@
+# Dynamic Context Flag-Based Hierarchical Algorithm 재현 실험을 위한 패키지 의존성
+
+# 핵심 데이터 과학 라이브러리
+numpy>=1.21.0
+pandas>=1.3.0
+scikit-learn>=1.0.0
+
+# 시각화 라이브러리  
+matplotlib>=3.5.0
+seaborn>=0.11.0
+
+# 자연어 처리
+nltk>=3.7
+
+# 유틸리티
+pathlib2>=2.3.0
+
+# 로깅 및 진행상황 표시 (선택사항)
+tqdm>=4.60.0
+
+# 추가적인 머신러닝 메트릭
+scipy>=1.7.0
