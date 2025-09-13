@@ -4,11 +4,11 @@
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 [![Status](https://img.shields.io/badge/Status-Reproduced-success.svg)](README.md)
 
-## 📋 개요
+## Overview
 
-본 프로젝트는 **"Dynamic Context Flag-Based Hierarchical Algorithm for Large-Scale Document Context Linking and Integration"** 논문의 알고리즘을 완전히 재현하고 검증한 구현체입니다. 
+This project is a fully reproducible and verified implementation of the algorithm presented in the paper "Dynamic Context Flag-Based Hierarchical Algorithm for Large-Scale Document Context Linking and Integration."
 
-대용량 문서 집합에서 동적 컨텍스트 플래그를 생성하고, 계층적 클러스터링을 통해 문서 간의 의미적 연결을 식별하여 효율적인 문서 통합을 수행하는 알고리즘입니다.
+This algorithm generates dynamic context flags from large document sets and identifies semantic connections between documents through hierarchical clustering, enabling efficient document integration.
 
 ## 🎯 Core Features
 
@@ -408,19 +408,19 @@ class ContextLinkingAlgorithm:
 - Agglomerative Clustering: Hierarchical Clustering Algorithms
 - Silhouette Analysis: Cluster Validation Metrics
 
-## 📄 라이선스
+## 📄 License
 
-본 프로젝트는 MIT 라이선스 하에 배포됩니다. 자세한 내용은 [LICENSE](LICENSE) 파일을 참조하세요.
+This project is distributed under the MIT License. For more information, see the [LICENSE](LICENSE) file.
 
-## 🤝 기여 방법
+## 🤝 How to Contribute
 
-1. 이 저장소를 포크합니다
-2. 새로운 기능 브랜치를 생성합니다 (`git checkout -b feature/AmazingFeature`)
-3. 변경사항을 커밋합니다 (`git commit -m 'Add some AmazingFeature'`)
-4. 브랜치에 푸시합니다 (`git push origin feature/AmazingFeature`)
-5. Pull Request를 생성합니다
+1. Fork this repository.
+2. Create a new feature branch (`git checkout -b feature/AmazingFeature`).
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`).
+4. Push to the branch (`git push origin feature/AmazingFeature`).
+5. Create a Pull Request.
 
-## 📞 연락처 uvgotmail@nate.com SW Yoon.
+##  uvgotmail@nate.com SW Yoon.
 
 프로젝트 관련 문의사항이나 개선 제안이 있으시면 언제든 연락주세요.
 
